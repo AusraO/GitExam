@@ -48,13 +48,17 @@
  }
 
  .content h1 {
+    padding-top: 30px;
      font-size: 3rem;
      margin-bottom: 1rem;
  }
 
  .content p {
+    padding-top: 30px;
+    padding-bottom: 30px;
      font-size: 1.5rem;
      margin-bottom: 2rem;
+
  }
 
  .content button {
@@ -66,10 +70,13 @@
      color: #ffffff;
      display: flex;
     justify-content: center;
-    width: 450px;
+    width: 500px;
     flex-wrap: wrap-reverse;
  }
-
+.content button:hover{
+    background-color: rgba(255, 255, 255, 0.301);
+    cursor: pointer;
+}
  .circle {
      width: 150px;
      height: 150px;
@@ -86,4 +93,16 @@
  .verticalLine {
      border-left: 2px solid white;
      height: 50px;
+ }
+ span.connect,
+ span.opportunity {
+   text-decoration: underline dotted;
+ }
+ span.connect:hover{
+    color: rgb(63, 80, 179);
+    cursor: pointer;
+ }
+ span.opportunity:hover {
+   color: rgb(63, 80, 179);
+   cursor: pointer;
  }
