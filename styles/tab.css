@@ -1,0 +1,6 @@
+.closeButton{
+    width: 50px;
+}
+.tab::backdrop{
+    background-image: url('resources/bg.jpg');
+}
