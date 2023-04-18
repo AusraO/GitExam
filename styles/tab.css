@@ -1,6 +1,34 @@
-.closeButton{
-    width: 50px;
+.closeButton {
+    width: 30px;
 }
-.tab::backdrop{
-    background-image: url('resources/bg.jpg');
+
+.tab::backdrop {
+    background-color: rgba(0, 0, 0, 0.658);
 }
+
+.tab {
+    max-width: 550px;
+    border: 0;
+    background-color: rgb(23, 24, 29);
+    color: white;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+.headerAndClose{
+    display: flex;
+    justify-content: space-between;
+}
+
+.closeButton img{
+    transition: transform 0.70s ease-in-out;
+
+   transform-origin: 50% 50%;
+}
+.closeButton:hover img {
+    transform: rotate(180deg);
+  }
+  
