@@ -1,12 +1,12 @@
-.closeButton, .closeButton2, .closeButton3{
+.closeButton, .closeButton2, .closeButton3, .closeButton4{
     width: 30px;
 }
 
-.tab, .tab2,.tab3::backdrop {
+.tab, .tab2,.tab3,.tab4::backdrop {
     background-color: rgba(0, 0, 0, 0.658);
 }
 
-.tab, .tab2, .tab3{
+.tab, .tab2, .tab3, .tab4{
     max-width: 550px;
     border: 0;
     background-color: rgb(23, 24, 29);
@@ -21,7 +21,7 @@
     width: 100%;
     height: auto;
 }
-.headerAndClose, .headerAndClose2, .headerAndClose3{
+.headerAndClose, .headerAndClose2, .headerAndClose3, .headerAndClose4{
     display: flex;
     justify-content: space-between;
 }
@@ -41,7 +41,11 @@
 
    transform-origin: 50% 50%;
 }
+.closeButton4 img{
+    transition: transform 0.70s ease-in-out;
 
+   transform-origin: 50% 50%;
+}
 .closeButton:hover img {
     transform: rotate(180deg);
   }
@@ -51,4 +55,6 @@
   .closeButton3:hover img {
     transform: rotate(180deg);
   }
-  
+  .closeButton4:hover img {
+    transform: rotate(180deg);
+  }
