@@ -31,4 +31,8 @@
 .closeButton:hover img {
     transform: rotate(180deg);
   }
-  
+  @media (min-width: 992px) {
+   .tab{
+    max-width: 800px;
+   }
+}
